@@ -1,0 +1,41 @@
+0. revisar (pip y python) 
+python -V 
+    Python 3.12.2
+
+pip -V
+    pip 24.0 
+
+pip list -> ver las dependencias instaladas globalmente
+
+pip install django -> instalando django de manera global (SALTAMOS ESTE PASO PORQUE ESTA INSTALADO)
+
+1.0 etapa 0: entrar a la carpeta 
+    cd onlyflans_proyecto
+
+1.1 Etapa 1: preparacion del entorno virtual e instalacion de dependencias
+python -m venv onlyflans
+
+1.2 activar el entorno virtual 
+
+source onlyflans/Scripts/activate 
+
+1.3 instalar django 
+    pip install django
+
+1.4  revisar las dependencias instaladas en el entorno
+    pip list
+
+1.5 verificacion de instalacion
+    pip freeze
+
+1.6 ingresar a la carpeta de onlyflans
+    cd onlyflans
+
+1.7 creacion del proyecto
+    django-admin startproject onlyflansApp
+
+1.8 Ejecucion del proyecto
+    python manage.py runserver
+
+
+
